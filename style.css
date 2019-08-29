@@ -6,12 +6,18 @@ body {
     width: 960px;
     font-size: 18px;
 }
-           
+
+.article {
+    text-align: center;
+    position: relative;
+    padding: 100px;
+}    
+   
 header {
     background: #ebebeb;
     padding: 25px;
     text-align: center;
- }
+}
 
  nav {
      background: #ebebeb;
@@ -19,37 +25,38 @@ header {
      text-align: center;
      margin-top: 5px;
      padding-bottom: 25px;
- }
+}
 
  aside {
      height: 200px;
-     width: (33.333%);
+     width: calc(33.333%);
      background: #ebebeb;
-     border: 25px;
- }
+}
 
  section {
-     height: 200px;
+
      margin-left: 20px;
      background: #ebebeb;
      width: 495px;
- }
+}
 
  article {
     color: #ebebeb;
     background: #7777;
     text-align: center;
-    width: 200px;
-
- }
+    width: calc(50% -100);
+    height: 160px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
 
  h1, p {
      color: #7777;
      background: #ebebeb;
- }
+}
 
  footer {
      background: #ebebeb;
      padding: 25px;
      text-align: center;
- }
+}
